@@ -5,5 +5,6 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
+    container_name: nginx-redirect
     ports:
       - 8080:80
