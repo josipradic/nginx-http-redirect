@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  nginx:
+    dockerfile: ./Dockerfile
+    container_name: nginx-redirect
+    ports:
+      - 8080:80
